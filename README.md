@@ -8,6 +8,9 @@ Analyses 'Human Activity Recognition Using Smartphones Data Set' from UCI Machin
 
 **Data**: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. 
 
+## Output Data
+Refer to the accompanying code book '**CodeBook.md**' for an explanation of the output data frame '**actMean**' and definitions for its columns.
+
 ## Requirements
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
