@@ -71,7 +71,7 @@ actMelt <- melt(actv, id=c("subjectId", "activity"))
 actMlt <- actMelt[actMelt$variable!="activityId", ]	# Remove extra rows from activityId column
 
 
-# Average of each variable for each activity and each subject
+# Calculate the average for each variable for each subject/activity combination
 actMean <- dcast(actMlt, subjectId + activity ~ variable, mean)
 
 print("Results in data frame: actMean")
