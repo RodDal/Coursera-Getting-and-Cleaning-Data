@@ -7,6 +7,8 @@
 # Downloads input data files, combines the test & training sets, merges subject (person) & activity type
 # data and calculates the mean of only the mean and standard deviation variables.
 
+# Load any necessary packages
+
 # Set up working directory within current directory
 origDir <- getwd()
 subDir <- "UCI HAR Dataset"
