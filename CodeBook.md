@@ -19,7 +19,7 @@ Code book for Coursera Getting and Cleaning Data course project
 * Body|Gravity = Actual acceleration is separated into gravity and body contributions
 * Acc|Gyro = Measure from accelerometer or gyroscope
 * Jerk = Rapid acceleration (derived)
-* Mag = <not specified>
+* Mag = (not provided by UCI)
 * X|Y|Z = Direction of movement in two horizontal planes and one vertical plane
 
 Refer to downloaded data: UCI HAR Dataset/features_info.txt. 
